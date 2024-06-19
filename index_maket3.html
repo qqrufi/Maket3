@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maket3</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>  
+    <script src="script.js" defer></script> 
+    <header>
+        <link rel="stylesheet" href="header.css">
+        <div class="header-content">
+        <div class="logo-title">
+            <img src="C:\Users\Sonotoki\3D Objects\HTML\makerttt\pic\logo.png" alt="Logo">
+            <div class="title-subtitle">
+                <h1>Назва</h1>
+                <h2>компанії</h2>
+                <p>Найкраща компанія в світі</p>
+            </div>
+        </div>
+        <div class="phone-number">
+          <span><a href="tel:+380991234567">+38 (099) 123-45-67</a></span>
+          <span><a href="tel:+380939876543">+38 (093) 987-65-43</a></span>
+          <span><a id="openFormLink" href="#">зворотній зв'язок</a></span>
+      </div>
+  </div>
+  
+  <!-- Pop-up feedback form -->
+   <link rel="stylesheet" href="popup.css ">
+  <div id="popupForm" class="popup-form">
+      <div class="form-content">
+          <span class="close-btn">&times;</span>
+          <h3>Форма зворотного зв'язку</h3>
+          <form>
+              <label for="name">Ваше імя *</label>
+              <input type="text" id="name" name="name" required>
+  
+              <label for="phone">Телефон *</label>
+              <input type="tel" id="phone" name="phone" pattern="^\+?[0-9\s\-]{10,15}$" required>
+              <span class="error" id="phoneError">Введіть дійсний номер телефону</span>
+  
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required>
+              <span class="error" id="emailError">Поле обязательно для заполнения</span>
+  
+              <label for="message">Повідомлення</label>
+              <textarea id="message" name="message"></textarea>
+  
+              <button type="submit">Відправити</button>
+          </form>
+      </div>
+  </div>
+</header>
+<link rel="stylesheet" href="menu.css">
+<menu>  
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#">Головна</a></li>
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">Доставка і оплата</a></li>
+            <li><a href="#">Прайс лист</a></li>
+            <li><a href="#">Контакти</a></li>
+        </ul>
+    </nav>
+</menu>
+
+<link rel="stylesheet" href="slider.css">
+<script src="slider_script.js" defer></script> 
+<div class="slider">
+    <img id="slideshow" src="C:/pic/slide1.jpg" alt="Slider">
+</div>
+<div class="slider-content"></div>
+</div>
+<link rel="stylesheet" href="content.css">
+
+<nav class="breadcrumb">
+  <a href="#">Головна</a> /
+  <a href="#">Каталог</a> /
+  <a href="#">Побутова техніка</a>
+</nav>
+<content>
+  <div class="content-container">
+    <div class="leftblock">
+      <div class="sidebar"
+      <ul class="parent-menu">
+        <li class="parent-item">
+          <a href="#">Автомобіль</a>
+          <ul class="sub-menu">
+            <li><a href="#">Легкові автомобілі</a></li>
+            <li><a href="#">Вантажні автомобілі</a></li>
+            <li><a href="#">Мотоцикли</a></li>
+          </ul>
+        </li>
+        <li class="parent-item">
+          <a href="#">Побутова техніка</a>
+          <ul class="sub-menu">
+            <li><a href="#">Холодильники</a></li>
+            <li><a href="#">Пральні машини</a></li>
+            <li><a href="#">Мікрохвильові печі</a></li>
+          </ul>
+        </li>
+        <li class="parent-item">
+          <a href="#">Мобільна техніка</a>
+          <ul class="sub-menu">
+            <li><a href="#">Смартфони</a></li>
+            <li><a href="#">Планшети</a></li>
+            <li><a href="#">Ноутбуки</a></li>
+          </ul>
+        </li>
+        <li class="parent-item">
+          <a href="#">Комп'ютери</a>
+          <ul class="sub-menu">
+            <li><a href="#">Настільні ПК</a></li>
+            <li><a href="#">Моноблоки</a></li>
+            <li><a href="#">Сервери</a></li>
+          </ul>
+        </li>
+        <li class="parent-item">
+          <a href="#">Одяг</a>
+          <ul class="sub-menu">
+            <li><a href="#">Чоловічий одяг</a></li>
+            <li><a href="#">Жіночий одяг</a></li>
+            <li><a href="#">Дитячий одяг</a></li>
+          </ul>
+        </li>
+        <li class="parent-item">
+          <a href="#">Нерухомість</a>
+          <ul class="sub-menu">
+            <li><a href="#">Квартири</a></li>
+            <li><a href="#">Будинки</a></li>
+            <li><a href="#">Комерційна нерухомість</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  <div class="price-list">
+    <img src="file:///C:/Users/Sonotoki/Downloads/img/img/logo_price-list.jpg" alt="Your Image">
+
+  </div>
+</div>
+<div class="centerblock">
+  <div class="product-cards">
+    <div class="product-card">
+      <div class="image-container">
+          <img src="file:///C:/Users/Sonotoki/Downloads/img/img/nophoto.jpg" alt="Product Image">
+      </div>
+      <div class="text-container">
+          <p>Найкращий чайник, який потрібно купити!</p>
+      </div>
+      <div class="price">1 900 грн</div>
+      <a class="additional-image-link" href="#">
+        <img class="additional-image" src="file:///C:/Users/Sonotoki/Downloads/img/img/icon_buy.svg" alt="Додаткове зображення">
+    </a>
+  </div>
+  
+  <div class="product-card">
+    <div class="image-container">
+        <img src="file:///C:/Users/Sonotoki/Downloads/img/img/nophoto.jpg" alt="Product Image">
+    </div>
+    <div class="text-container">
+        <p>Найкращий чайник, який потрібно купити!</p>
+    </div>
+    <div class="price">1 900 грн</div>
+    <a class="additional-image-link" href="#">
+      <img class="additional-image" src="file:///C:/Users/Sonotoki/Downloads/img/img/icon_buy.svg" alt="Додаткове зображення">
+  </a>
+</div>
+  
+<div class="product-card">
+  <div class="image-container">
+      <img src="file:///C:/Users/Sonotoki/Downloads/img/img/nophoto.jpg" alt="Product Image">
+  </div>
+  <div class="text-container">
+      <p>Найкращий чайник, який потрібно купити!</p>
+  </div>
+  <div class="price">1 900 грн</div>
+  <a class="additional-image-link" href="#">
+    <img class="additional-image" src="file:///C:/Users/Sonotoki/Downloads/img/img/icon_buy.svg" alt="Додаткове зображення">
+</a>
+</div>
+<div class="product-card">
+  <div class="image-container">
+      <img src="file:///C:/Users/Sonotoki/Downloads/img/img/nophoto.jpg" alt="Product Image">
+  </div>
+  <div class="text-container">
+      <p>Найкращий чайник, який потрібно купити!</p>
+  </div>
+  <div class="price">1 900 грн</div>
+  <a class="additional-image-link" href="#">
+    <img class="additional-image" src="file:///C:/Users/Sonotoki/Downloads/img/img/icon_buy.svg" alt="Додаткове зображення">
+</a>
+</div>
+<div class="product-card">
+  <div class="image-container">
+      <img src="file:///C:/Users/Sonotoki/Downloads/img/img/nophoto.jpg" alt="Product Image">
+  </div>
+  <div class="text-container">
+      <p>Найкращий чайник, який потрібно купити!</p>
+  </div>
+  <div class="price">1 900 грн</div>
+  <a class="additional-image-link" href="#">
+    <img class="additional-image" src="file:///C:/Users/Sonotoki/Downloads/img/img/icon_buy.svg" alt="Додаткове зображення">
+</a>
+</div>
+
+<div class="product-card">
+<div class="image-container">
+    <img src="file:///C:/Users/Sonotoki/Downloads/img/img/nophoto.jpg" alt="Product Image">
+</div>
+<div class="text-container">
+    <p>Найкращий чайник, який потрібно купити!</p>
+</div>
+<div class="price">1 900 грн</div>
+<a class="additional-image-link" href="#">
+  <img class="additional-image" src="file:///C:/Users/Sonotoki/Downloads/img/img/icon_buy.svg" alt="Додаткове зображення">
+</a>
+</div>
+<div class="pagination">
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+</div>
+
+
+<div class="company-info">
+  <div class="line"></div>
+  <div class="text-container-info ">
+      <div class="text-block">Компанія «Піксель Плюс» існує понад 6 років, за цей час ми брали участь у розробці більш як 700 сайтів, тому можемо впевнено називати себе професіоналами. На даний момент наш колектив складається з більш ніж 30 співробітників, що працюють у двох офісах у Москві та Зеленограді. Характерні для цього жанру мотиви: нерозділеного кохання, догляду молодості, згасання душі.</div>
+      <div class="text-block">Одним із основних напрямків робіт нашої компанії є пошукове просування сайтів, на даний момент ми працюємо з більш ніж 150 постійними клієнтами за більш ніж 11 000 пошуковими запитами. При цьому в роботі основний акцент ми робимо на якості робіт, а також застосовуємо власні унікальні розробки в галузі SEO просування. На даний момент відділ SEO складається з 9 осіб під керівництвом провідного спеціаліста, які переважно працюють у нашому московському офісі.</div>
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+
+</content>
+<link rel="stylesheet" href="footer.css">
+<footer>
+    <div class="footer-content">
+        <div class="footer-info">
+            <p>© 2012-2013 ЗАО "Компанія"</p>
+            <p><a href="#">info.ua</a></p>
+        </div>
+        <div class="footer-list">
+            <div><a href="#">Головна</a></div>
+            <div><a href="#">Каталог</a></div>
+            <div><a href="#">Доставка і оплата</a></div>
+            <div><a href="#">Прайс лист</a></div>
+            <div><a href="#">Контакти</a></div>
+        </div>
+        <div class="footer-block-image">
+            <img src="foto/embema.png" alt="Емблема">
+            <div class="footer-block-paragraphs">
+                <p>Розробка сайта -</p>
+                <p>Компанія "Піксель Плюс"</p>
+            </div>  
+        </div>
+    </div>
+</footer>
+</body>

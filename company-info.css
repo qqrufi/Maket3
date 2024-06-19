@@ -1,0 +1,29 @@
+.company-info {
+    width: 980px;
+    padding: 0 10px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Інтервал між блоками */
+}
+
+.text-block {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    background-color: #f4f4f4;
+    text-align: left; /* Вирівнювання тексту по лівому краю */
+    border: none; /* Прибрати візуальні рамки */
+}

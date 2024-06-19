@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 14px;
+}
+
+.site-content {
+    flex: 1;
+}
+
+
+.breadcrumb {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 5px;
+}
+
+.breadcrumb span {
+    margin: 0 5px;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+

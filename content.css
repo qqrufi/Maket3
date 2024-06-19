@@ -1,0 +1,166 @@
+content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0; /* Top and bottom padding */
+  box-sizing: border-box;
+}
+
+.content-container {
+  max-width: 980px; /* Limit content width */
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Center horizontally */
+  align-items: flex-start; /* Align to the top */
+  box-sizing: border-box;
+}
+
+.leftblock {
+  width: 26%;
+  background-color: #f1f1f1; /* Background color */
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex; /* Use flex for vertical alignment */
+  flex-direction: column; /* Align items vertically */
+  align-items: flex-start; /* Align to the left */
+}
+
+.centerblock {
+  flex: 1; /* Occupy the remaining space */
+  background-color: #e9e9e9; /* Example background color */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.product-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  position: relative; /* For positioning additional image */
+  background-color: lightgray;
+  border: 1px solid #ccc;
+  font-family: 'PT+Sans', sans-serif;
+  text-align: center;
+  width: calc(33.333% - 20px); /* Set card width */
+  margin: 10px; /* Set card margins */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; /* Arrange content vertically */
+  justify-content: space-between; /* Evenly distribute space between blocks */
+  padding-bottom: 10px; /* Additional bottom padding */
+  padding: 10px;
+}
+
+.image-container {
+  flex: 1; /* Occupy available remaining space */
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+}
+
+.text-container {
+  padding: 10px;
+}
+
+.price {
+  margin-top: 20px; /* Auto margin from the top */
+  margin-left: 10px; /* Margin from the left */
+  font-weight: bold; /* Bold text for price */
+  align-self: flex-start; /* Align to the left */
+}
+
+.additional-image {
+  position: absolute;
+  bottom: 5px; /* Margin from the bottom */
+  right: 5px; /* Margin from the right */
+  width: 30px; /* Width of additional image */
+  height: auto;
+}
+
+.additional-image-link {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.parent-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.parent-item {
+  margin-bottom: 10px;
+}
+
+.sub-menu {
+  display: none;
+  padding-left: 20px;
+}
+
+.parent-item:hover > .sub-menu {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-family: 'PT+Sans', sans-serif;
+  font-size: medium;
+  display: block; /* Ensure link occupies the full width of parent element */
+}
+
+.company-info {
+  width: 980px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text-container-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; /* Space between blocks */
+}
+
+.text-block {
+  flex: 1;
+  padding: 10px;
+  margin: 5px;
+  background-color: #f4f4f4;
+  text-align: left; /* Align text to the left */
+  border: none; /* Remove visual borders */
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  margin: 0 100px 0 0;
+}
+
+.pagination a {
+  color: #333;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 0 4px;
+}
+
+.pagination a:hover {
+  text-decoration: underline;
+}
+
+.pagination a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}

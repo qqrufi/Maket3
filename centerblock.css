@@ -1,0 +1,26 @@
+.centerblock {
+    flex: 1; /* Займає весь простір, що залишився */
+    background-color: #e9e9e9; /* Приклад кольору фону */
+    padding: 20px;
+  }
+  .product-cards {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  
+  .product-card {
+    flex: 0 0 auto;
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-right: 20px;
+  }
+  
+  .product-card:last-child {
+    margin-right: 0;
+  }

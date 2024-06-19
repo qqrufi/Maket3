@@ -1,0 +1,74 @@
+header {
+    background-color: lightgray;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 0;
+}
+
+.header-content {
+    max-width: 980px; /* Limit the width of the content */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Add padding for spacing */
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title img {
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+}
+
+.title-subtitle h1 {
+    font-size: 20px;
+    color: grey;
+    margin: 0;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.title-subtitle h2 {
+    font-size: 20px;
+    margin: 0;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: grey;
+}
+
+.title-subtitle p {
+    font-size: 14px;
+    margin: 5px 0 0 0;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.phone-number {
+    font-size: 40Ppx;
+    font-family: "PT Sans", sans-serif;
+    text-decoration: none;
+    font-weight: 1px;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    line-height: 1.2;
+    text-align: right;
+}
+
+.phone-number a {
+    color: #767676;
+    font-family: "PT Sans", sans-serif;
+    text-decoration: none;
+    font-weight: 50px;
+    font-style: normal;
+}   
